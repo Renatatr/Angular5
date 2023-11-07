@@ -8,7 +8,8 @@
     [formGroup]="formulario"
     *ngIf="formAberto"
     @shownState
-    [@formButton]="formulario.valid ? 'valid' : 'invalid'">
+    [@formButton]="formulario.valid ? 'valid' : 'invalid'"
+    [@shakeAnimation]="formulario.value">
     <label for="descricao">Descrição da tarefa</label>
     <input required
       type="text"
@@ -25,7 +26,8 @@
       formControlName="prioridade"
       [ngClass]="campoValidado('prioridade')"
     >
-      <option disabled value="">Selecione</option>
+      <!-- <option disabled value="">Selecione</option> -->
+      <option value="">Selecione</option>
       <option value="Alta">Alta</option>
       <option value="Normal">Normal</option>
       <option value="Baixa">Baixa</option>
@@ -39,7 +41,8 @@
       formControlName="categoria"
       [ngClass]="campoValidado('categoria')"
     >
-      <option disabled value="">Selecione</option>
+      <!-- <option disabled value="">Selecione</option> -->
+      <option value="">Selecione</option>
       <option value="Casa">Casa</option>
       <option value="Trabalho">Trabalho</option>
       <option value="Estudos">Estudos</option>
