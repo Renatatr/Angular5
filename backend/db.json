@@ -25,7 +25,7 @@
       "id": 5,
       "descricao": "Trocar lâmpada",
       "categoria": "Casa",
-      "statusFinalizado": false,
+      "statusFinalizado": true,
       "prioridade": "Alta"
     },
     {
@@ -36,17 +36,17 @@
       "prioridade": "Alta"
     },
     {
-      "id": 7,
-      "descricao": "fazer b",
-      "statusFinalizado": false,
-      "categoria": "Trabalho",
-      "prioridade": "Normal"
-    },
-    {
       "id": 8,
       "descricao": "fazer c",
-      "statusFinalizado": false,
+      "statusFinalizado": true,
       "categoria": "Estudos",
+      "prioridade": "Baixa"
+    },
+    {
+      "id": 9,
+      "descricao": "weqweqwewq",
+      "statusFinalizado": true,
+      "categoria": "Casa",
       "prioridade": "Baixa"
     }
   ]
