@@ -7,7 +7,8 @@
   <form class="formulario ff-prompt"
     [formGroup]="formulario"
     *ngIf="formAberto"
-    @shownState>
+    @shownState
+    [@formButton]="formulario.valid ? 'valid' : 'invalid'">
     <label for="descricao">Descrição da tarefa</label>
     <input required
       type="text"
@@ -49,7 +50,7 @@
     </app-mensagem>
     <div class="botoes-form">
       <button
-        [@formButton]="formulario.valid ? 'valid' : 'invalid'"
+        id="botao-salvar"
         (click)="salvarTarefa()"
         class="botao-form"
         [ngClass]="habilitarBotao()"
