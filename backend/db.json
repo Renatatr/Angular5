@@ -27,6 +27,27 @@
       "categoria": "Casa",
       "statusFinalizado": false,
       "prioridade": "Alta"
+    },
+    {
+      "id": 6,
+      "descricao": "Fazer a",
+      "statusFinalizado": false,
+      "categoria": "Casa",
+      "prioridade": "Alta"
+    },
+    {
+      "id": 7,
+      "descricao": "fazer b",
+      "statusFinalizado": false,
+      "categoria": "Trabalho",
+      "prioridade": "Normal"
+    },
+    {
+      "id": 8,
+      "descricao": "fazer c",
+      "statusFinalizado": false,
+      "categoria": "Estudos",
+      "prioridade": "Baixa"
     }
   ]
 }
