@@ -67,7 +67,7 @@ export const filterTrigger = trigger('filterAnimation', [
         ]))
     ]),
     transition(':leave', [
-        animate('400ms ease-out', style({
+        animate('400ms 1.2s cubic-bezier(.15,.79,1,-0.01)', style({
             opacity: 0,
             width: 0
         }))
